@@ -10,6 +10,7 @@ typedef struct vector {
     size_t capacity; // вместимость вектора
 } vector;
 
+
 // возвращает пустой вектор, в который можно вставить n элементов
 vector createVector(size_t n);
 
